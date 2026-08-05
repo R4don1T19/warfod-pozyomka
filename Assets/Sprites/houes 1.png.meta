@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 20418e6c37a7e1e42abc197c3835cd94
+guid: 06c4b8c7cf6081c4a8ec6b2288cc9467
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2369500816493661734
-    second: houes_0
+      213: -8929367227537120934
+    second: houes 1_0
   - first:
-      213: 2363982477498913822
-    second: houes_1
+      213: -4926701120470381879
+    second: houes 1_1
   - first:
-      213: -1380350878457526701
-    second: houes_2
+      213: 2250494571013422975
+    second: houes 1_2
   - first:
-      213: 3689468714666559285
-    second: houes_3
+      213: 1296342830454727837
+    second: houes 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: houes_0
+      name: houes 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad1b5e1cf87dd1fd0800000000000000
-      internalID: -2369500816493661734
+      spriteID: a51a2adf0d3841480800000000000000
+      internalID: -8929367227537120934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: houes_1
+      name: houes 1_1
       rect:
         serializedVersion: 2
         x: 290
@@ -146,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e141292d98d8ec020800000000000000
-      internalID: 2363982477498913822
+      spriteID: 9ca08d70f67d0abb0800000000000000
+      internalID: -4926701120470381879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: houes_2
+      name: houes 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -168,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3560420803208dce0800000000000000
-      internalID: -1380350878457526701
+      spriteID: f7f333283ec5b3f10800000000000000
+      internalID: 2250494571013422975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: houes_3
+      name: houes 1_3
       rect:
         serializedVersion: 2
         x: 290
@@ -190,8 +190,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5370e939f30a33330800000000000000
-      internalID: 3689468714666559285
+      spriteID: d94e06c9fe88df110800000000000000
+      internalID: 1296342830454727837
       vertices: []
       indices: 
       edges: []
@@ -210,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      houes_0: -2369500816493661734
-      houes_1: 2363982477498913822
-      houes_2: -1380350878457526701
-      houes_3: 3689468714666559285
+      houes 1_0: -8929367227537120934
+      houes 1_1: -4926701120470381879
+      houes 1_2: 2250494571013422975
+      houes 1_3: 1296342830454727837
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
