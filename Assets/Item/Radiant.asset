@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e097d1b28fa42b408d8c0d7a5853ea8, type: 3}
+  m_Name: Radiant
+  m_EditorClassIdentifier: 
+  ItemName: Radiant
+  maxAmount: 65
+  image: {fileID: 5605628314380465023, guid: 7735fc47772775f4ebf4549b5236c5c0, type: 3}

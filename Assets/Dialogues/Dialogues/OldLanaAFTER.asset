@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d81e97db3883904bb2f8b2bc253059c, type: 3}
+  m_Name: OldLanaAFTER
+  m_EditorClassIdentifier: 
+  dialogueName: OldLanaAFTER
+  startNodeId: 0
+  nodes:
+  - NodeID: 0
+    lines:
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Have you brought some flowers?
+    nextNodeID: 
+    choices:
+    - choiceText: Give her flowers.
+      nextNodeID: 1
+      keyChoice: Helps OldLana
+    - choiceText: Dont give her flowers.
+      nextNodeID: 2
+      keyChoice: Haven't help her
+  - NodeID: 1
+    lines:
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Oh, thank you, dear.
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: I am very appreciate that. The Garden will be full of Radiant's.
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: See ya around.
+    nextNodeID: 
+    choices: []
+  - NodeID: 2
+    lines:
+    - name: Lana
+      picture: {fileID: -7697192603752915565, guid: 9c614b37372db52479f18eac58893475, type: 3}
+      message: I haven't found them yet.
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: 'No problem, i can wait. '
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: See ya around.
+    nextNodeID: 
+    choices: []
+  quest: {fileID: 0}
+  GoodEnding: Helps OldLana
+  BadEnding: Haven't help her

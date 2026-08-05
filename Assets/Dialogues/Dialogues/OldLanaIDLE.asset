@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d81e97db3883904bb2f8b2bc253059c, type: 3}
+  m_Name: OldLanaIDLE
+  m_EditorClassIdentifier: 
+  dialogueName: OldLanaIDLE
+  startNodeId: 0
+  nodes:
+  - NodeID: 0
+    lines:
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: How you're doing?
+    nextNodeID: 
+    choices:
+    - choiceText: Good
+      nextNodeID: 1
+      keyChoice: 
+    - choiceText: Bad
+      nextNodeID: 2
+      keyChoice: 
+    - choiceText: ...
+      nextNodeID: 3
+      keyChoice: 
+  - NodeID: 1
+    lines:
+    - name: Lana
+      picture: {fileID: -7697192603752915565, guid: 9c614b37372db52479f18eac58893475, type: 3}
+      message: Pretty good. I want to stay here little longer.
+    nextNodeID: 4
+    choices: []
+  - NodeID: 2
+    lines:
+    - name: Lana
+      picture: {fileID: -7697192603752915565, guid: 9c614b37372db52479f18eac58893475, type: 3}
+      message: I feel bad for myself.
+    nextNodeID: 5
+    choices: []
+  - NodeID: 3
+    lines:
+    - name: Lana
+      picture: {fileID: -7697192603752915565, guid: 9c614b37372db52479f18eac58893475, type: 3}
+      message: ...
+    nextNodeID: 6
+    choices: []
+  - NodeID: 4
+    lines:
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Good to hear it! We hope the same, you need here.
+    nextNodeID: 15
+    choices: []
+  - NodeID: 5
+    lines:
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: You  strong, girl. I believe in you.
+    nextNodeID: 
+    choices:
+    - choiceText: Thank her
+      nextNodeID: 8
+      keyChoice: 
+    - choiceText: ...
+      nextNodeID: 9
+      keyChoice: 
+  - NodeID: 6
+    lines:
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Did something bad happend to you?
+    nextNodeID: 
+    choices:
+    - choiceText: No
+      nextNodeID: 10
+      keyChoice: 
+    - choiceText: Yes
+      nextNodeID: 11
+      keyChoice: 
+  - NodeID: 15
+    lines:
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Goodbye, Lana.
+    nextNodeID: 
+    choices: []
+  - NodeID: 8
+    lines:
+    - name: Lana
+      picture: {fileID: -7697192603752915565, guid: 9c614b37372db52479f18eac58893475, type: 3}
+      message: Thank you, Old Lana. Its much easier now.
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Alright then.
+    nextNodeID: 15
+    choices: []
+  - NodeID: 9
+    lines:
+    - name: Lana
+      picture: {fileID: -7697192603752915565, guid: 9c614b37372db52479f18eac58893475, type: 3}
+      message: . . .
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Seem's like you need to stay alone a little.
+    nextNodeID: 15
+    choices: []
+  - NodeID: 10
+    lines:
+    - name: Lana
+      picture: {fileID: -7697192603752915565, guid: 9c614b37372db52479f18eac58893475, type: 3}
+      message: No, i'm good, thank you.
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Oh, i see.
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: If you in trouble, please, speak to me.
+    nextNodeID: 15
+    choices: []
+  - NodeID: 11
+    lines:
+    - name: Lana
+      picture: {fileID: -7697192603752915565, guid: 9c614b37372db52479f18eac58893475, type: 3}
+      message: Yes, but there is nothing you can do.
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: Oh, i see.
+    - name: OldLana
+      picture: {fileID: 8212712898034683147, guid: fea91fe3b8103a447847e9d63af8d296, type: 3}
+      message: If you in trouble, please, speak to me.
+    nextNodeID: 15
+    choices: []
+  quest: {fileID: 0}
