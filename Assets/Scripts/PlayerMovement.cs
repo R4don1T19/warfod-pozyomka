@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 public class PlayerMovement : MonoBehaviour
 {
+    // wow no way
     [SerializeField] internal float speed = 6.66f;
     [SerializeField] private float _ladderSpeed = 3.33f;
     [SerializeField] private float stamina = 6f;

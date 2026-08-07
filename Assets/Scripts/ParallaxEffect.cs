@@ -9,6 +9,7 @@ public class ParallaxEffect : MonoBehaviour
     {
         cam = GameObject.Find("MainCamera");
     }
+    // wow no way
     void Update()
     {
         float distX = (cam.transform.position.x * (1 - Parallax));
