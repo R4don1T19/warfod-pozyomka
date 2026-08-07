@@ -8,7 +8,7 @@ public class DialogueNPC : MonoBehaviour
     [SerializeField] private DialogueGraph DialogueAfterQuest;
     [SerializeField] private QuestUI qUI;
     [SerializeField] private bool PlayerIsNear = false;
-    [SerializeField] public bool FinalTalk => DialogueFlag.Instance.HasFlag(DialogueAfterQuest.GoodEnding);
+    public bool FinalTalk => DialogueFlag.Instance.HasFlag(DialogueAfterQuest.GoodEnding);
 
     private SpriteRenderer interactWindow;
 

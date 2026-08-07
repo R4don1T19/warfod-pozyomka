@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DarkestClouds 2_0: 7860011035035876658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
