@@ -6,16 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Kontassalama.unity
+    path: Assets/Scenes/MainScenes/Kontassalama1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/house1.unity
+    path: Assets/Scenes/Inside/house1.unity
     guid: 26f79ef8dce8cd843b9ea3c282eb6fe6
   - enabled: 1
-    path: Assets/Scenes/house2.unity
+    path: Assets/Scenes/Inside/house2.unity
     guid: 27e9a7f0ce6e77847b54cc84e0300d57
   - enabled: 1
-    path: Assets/Scenes/Kontassalama1.unity
+    path: Assets/Scenes/MainScenes/Kontassalama2.unity
     guid: 8a80ac5b221da164b88b159b0ce6991e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
