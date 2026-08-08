@@ -4,7 +4,7 @@ using System;
 public class DialogueFlag : MonoBehaviour
 {
     public static DialogueFlag Instance {  get; private set; }
-    [SerializeField] private HashSet<string> _flags = new HashSet<string>();
+    private HashSet<string> _flags = new HashSet<string>();
     [SerializeField] private DialogueGraph _graph;
     public event Action<QuestBase> OnGainQuest;
 

@@ -6,7 +6,7 @@ public class QuestSingleton : MonoBehaviour
 {
     [SerializeField] public bool questComplete;
     [SerializeField] public string questName;
-    [SerializeField] public Dictionary<string, bool> IsQuestComplete;
+    public Dictionary<string, bool> IsQuestComplete;
 
     public static QuestSingleton Instance { get; private set; }
     private void Awake()

@@ -29,8 +29,8 @@ public class DialogueManager : MonoBehaviour
     {
         if (_isDialogueActive) return;
 
-        dUI = FindFirstObjectByType<DialogueUI>(FindObjectsInactive.Include);
-        PM = FindFirstObjectByType<PlayerMovement>();
+        dUI = FindAnyObjectByType<DialogueUI>(FindObjectsInactive.Include);
+        PM = FindAnyObjectByType<PlayerMovement>();
 
         _graph = graph;
         _isDialogueActive = true;

@@ -14,7 +14,7 @@ public class DialogueNPC : MonoBehaviour
 
     private void Start()
     {
-        qUI = FindFirstObjectByType<QuestUI>();
+        qUI = FindAnyObjectByType<QuestUI>();
         interactWindow = GetComponentInChildren<SpriteRenderer>();
         interactWindow.color = new Color(1, 1, 1, 0f);
     }
