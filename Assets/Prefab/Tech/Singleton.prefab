@@ -629,6 +629,10 @@ PrefabInstance:
       value: 'QuestName '
       objectReference: {fileID: 0}
     - target: {fileID: 4348951937564499933, guid: bcf4e10f3a31f974c839a2e0415cedc5, type: 3}
+      propertyPath: QuestIcon
+      value: 
+      objectReference: {fileID: 5444999524789549590}
+    - target: {fileID: 4348951937564499933, guid: bcf4e10f3a31f974c839a2e0415cedc5, type: 3}
       propertyPath: QuestSlot
       value: 
       objectReference: {fileID: 6473494056127969193}
@@ -755,6 +759,14 @@ PrefabInstance:
     - target: {fileID: 7429489918391569997, guid: bcf4e10f3a31f974c839a2e0415cedc5, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444806270078683698, guid: bcf4e10f3a31f974c839a2e0415cedc5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 214
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444806270078683698, guid: bcf4e10f3a31f974c839a2e0415cedc5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 170
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -905,7 +917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1327140283243286243, guid: ac5cf7b2f607f204d84ff0a9355bd41e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 62
+      value: 65.1
       objectReference: {fileID: 0}
     - target: {fileID: 1497441058589363724, guid: ac5cf7b2f607f204d84ff0a9355bd41e, type: 3}
       propertyPath: m_IsActive
@@ -979,6 +991,10 @@ PrefabInstance:
       propertyPath: blank
       value: 
       objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 6627338989512524137, guid: ac5cf7b2f607f204d84ff0a9355bd41e, type: 3}
+      propertyPath: InventoryIcon
+      value: 
+      objectReference: {fileID: 8777680058989170640}
     - target: {fileID: 7596346546350590227, guid: ac5cf7b2f607f204d84ff0a9355bd41e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1157,6 +1173,18 @@ PrefabInstance:
       value: 145.1204
       objectReference: {fileID: 0}
     - target: {fileID: 8192531995597777715, guid: 32840de98b0fb604e8f436dd44089c08, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1109151
+      objectReference: {fileID: 0}
+    - target: {fileID: 8192531995597777715, guid: 32840de98b0fb604e8f436dd44089c08, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0972
+      objectReference: {fileID: 0}
+    - target: {fileID: 8192531995597777715, guid: 32840de98b0fb604e8f436dd44089c08, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0972
+      objectReference: {fileID: 0}
+    - target: {fileID: 8192531995597777715, guid: 32840de98b0fb604e8f436dd44089c08, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1190,7 +1218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8192531995597777715, guid: 32840de98b0fb604e8f436dd44089c08, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -135.4733
+      value: -180
       objectReference: {fileID: 0}
     - target: {fileID: 8192531995597777715, guid: 32840de98b0fb604e8f436dd44089c08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
