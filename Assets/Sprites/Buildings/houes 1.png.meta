@@ -275,6 +275,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: houes 1_7
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 198
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254980f4810091c449ce1a45f6a3e612
+      internalID: 108354793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houes 1_8
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 236
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f66b74a04ecc4a4fa4d91bce1d301bd
+      internalID: 1711620960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -296,6 +340,8 @@ TextureImporter:
       houes 1_4: 1248671131
       houes 1_5: -1996529459
       houes 1_6: 391906385
+      houes 1_7: 108354793
+      houes 1_8: 1711620960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
