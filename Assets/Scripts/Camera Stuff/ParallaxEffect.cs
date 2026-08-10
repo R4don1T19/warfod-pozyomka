@@ -1,4 +1,3 @@
-using System.Reflection.Metadata.Ecma335;
 using UnityEngine;
 
 public class ParallaxEffect : MonoBehaviour
@@ -11,7 +10,7 @@ public class ParallaxEffect : MonoBehaviour
     {
         StartPosition = gameObject.transform.position;
     }
-    private void Update()
+    private void LateUpdate()
     {
         if (!_isActive)
             return;
