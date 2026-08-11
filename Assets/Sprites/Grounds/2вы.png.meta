@@ -159,6 +159,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: "2\u0432\u044B_2"
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bcb4569b91c7741a26fc7b3c8c41a4
+      internalID: -1146390054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "2\u0432\u044B_3"
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 211
+        width: 204
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4b9bae8d78795498f08419f0420680
+      internalID: 1792475033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "2\u0432\u044B_4"
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad13c2ad7d05179479b11fa10a8e5575
+      internalID: -1690395202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "2\u0432\u044B_5"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 187
+        width: 94
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff9908d29e5283429a6c292af8ba3b8
+      internalID: 1366698174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -175,6 +263,10 @@ TextureImporter:
     nameFileIdTable:
       "2\u0432\u044B_0": 8237313995633161049
       "2\u0432\u044B_1": -857645049862137141
+      "2\u0432\u044B_2": -1146390054
+      "2\u0432\u044B_3": 1792475033
+      "2\u0432\u044B_4": -1690395202
+      "2\u0432\u044B_5": 1366698174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
