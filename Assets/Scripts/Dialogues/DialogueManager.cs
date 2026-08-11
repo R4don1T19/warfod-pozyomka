@@ -12,9 +12,12 @@ public class DialogueManager : MonoBehaviour
     private DialogueNode _node;
     private int _currentLineIndex;
     public bool _isDialogueActive = false;
+
     [SerializeField] private PlayerMovement PM;
     [SerializeField] private DialogueUI dUI;
     [SerializeField] private QuestUI qUI;
+    [SerializeField] private InventoryDataSystem iDS;
+    [SerializeField] private InventoryUI iUI;
     private void Awake()
     {
         if (Instance != null)
@@ -32,9 +35,12 @@ public class DialogueManager : MonoBehaviour
         dUI = FindAnyObjectByType<DialogueUI>(FindObjectsInactive.Include);
         PM = FindAnyObjectByType<PlayerMovement>();
 
+        qUI.CloseAllUIElements(); // Закрыть все квестовые UI-элементы, пока идет диалог
+        iUI.CloseAllUIElements(); // То же самое, но уже с UI-элементами Инвентаря.
+
         _graph = graph;
         _isDialogueActive = true;
-        PM.enabled = false;
+        PM.enabled = false;       // Игрок двигаться не может пока идет диалог
 
         ShowNode(_graph.GetFirstNode());
     }
@@ -106,7 +112,11 @@ public class DialogueManager : MonoBehaviour
         _graph = null;
         _node = null;
         dUI.Hide();
-        PM.enabled = true;
+
+        qUI.OpenAllUIElements(); // Можно снова увидеть квест-UI
+        iUI.ShowAllUIElements(); // Можно снова увидеть инвентарь-UI
+        
+        PM.enabled = true; // Теперь игрок может двигаться
     }
 
 

@@ -6,12 +6,13 @@ using System;
 
 public class QuestUI : MonoBehaviour
 {
-    private bool _UIOpened = false;
+    private bool _IconUI = true;
+    private bool _PanelUI = false;
     [SerializeField] private GameObject UIQuestWindow;
     [SerializeField] private GameObject QuestSlot;
     [SerializeField] public QuestBase CurrentQuest;
     [SerializeField] public bool questComplete = false;
-    [SerializeField] private Image QuestIcon;
+    [SerializeField] public Image QuestIcon;
     private void Start()
     {
         DialogueFlag.Instance.OnGainQuest += AddQuest;
@@ -22,18 +23,26 @@ public class QuestUI : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.X))
         {
-            if (_UIOpened)
-            {
-                QuestIcon.gameObject.SetActive(true);
-                _UIOpened = !_UIOpened;
-                UIQuestWindow.SetActive(false);
-            }
-            else
-            {
-                QuestIcon.gameObject.SetActive(false);
-                _UIOpened = !_UIOpened;
-                UIQuestWindow.SetActive(true);
-            }
+            ShowIconOrPanelUI();
+        }
+    }
+    private void ShowIconOrPanelUI()
+    {
+        if (_IconUI)
+        {
+            QuestIcon.gameObject.SetActive(false);
+            _IconUI = false;
+
+            UIQuestWindow.SetActive(true);
+            _PanelUI = true;
+        }
+        else
+        {
+            QuestIcon.gameObject.SetActive(true);
+            _IconUI = true;
+
+            UIQuestWindow.SetActive(false);
+            _PanelUI = false;
         }
     }
 
@@ -114,6 +123,24 @@ public class QuestUI : MonoBehaviour
             if (Questname.text == CurrentQuest.QuestName)
                 Destroy(slot.gameObject);
         }
+    }
+    public void CloseAllUIElements()
+    {
+        if (_PanelUI)
+        {
+            _PanelUI = false;
+            UIQuestWindow.SetActive(false);
+        }
+        else if (_IconUI)
+        {
+            _IconUI = false;
+            QuestIcon.gameObject.SetActive(false);
+        }
+    }
+    public void OpenAllUIElements()
+    {
+        _IconUI = true;
+        QuestIcon.gameObject.SetActive(true);
     }
 
     private void OnDisable()

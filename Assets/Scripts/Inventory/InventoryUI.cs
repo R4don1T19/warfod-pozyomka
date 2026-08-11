@@ -7,7 +7,8 @@ using System.Runtime.InteropServices.WindowsRuntime;
 
 public class InventoryUI : MonoBehaviour
 {
-    public bool inventoryOpened = false;
+    private bool _PanelUI = false;
+    private bool _IconUI = true;
     [SerializeField] private GameObject InventoryChildren;
     [SerializeField] private GameObject InventoryBox;
     [SerializeField] private InventoryDataSystem IDS;
@@ -29,19 +30,43 @@ public class InventoryUI : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            if (!inventoryOpened)
-            {
-                InventoryIcon.gameObject.SetActive(false);
-                InventoryChildren.SetActive(true);
-                inventoryOpened = !inventoryOpened;
-            }
-            else
-            {
-                InventoryIcon.gameObject.SetActive(true);
-                InventoryChildren.SetActive(false);
-                inventoryOpened = !inventoryOpened;
-            }
+            ShowIconOrPanelUI();
         }
+    }
+    private void ShowIconOrPanelUI()
+    {
+        if (_IconUI)
+        {
+            InventoryIcon.gameObject.SetActive(false);
+            _IconUI = false;
+            InventoryChildren.SetActive(true);
+            _PanelUI = true;
+        }
+        else
+        {
+            InventoryIcon.gameObject.SetActive(true);
+            _IconUI = true;
+            InventoryChildren.SetActive(false);
+            _PanelUI = false;
+        }
+    }
+    public void CloseAllUIElements()
+    {
+        if (_IconUI)
+        {
+            _IconUI = false;
+            InventoryIcon.gameObject.SetActive(_IconUI);
+        }
+        else if (_PanelUI)
+        {
+            _PanelUI = false;
+            InventoryChildren.SetActive(_PanelUI);
+        }
+    }
+    public void ShowAllUIElements()
+    {
+        _IconUI = true;
+        InventoryIcon.gameObject.SetActive(_IconUI);
     }
     private void OnDisable()
     {
