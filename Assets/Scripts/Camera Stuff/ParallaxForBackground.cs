@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class ParallaxPlusEffect : MonoBehaviour
 {
-    [SerializeField] private float Parallax = 0.95f;
+    [SerializeField] private float ParallaxX;
+    [SerializeField] private float ParallaxY;
     [SerializeField] private GameObject CameraObject;
 
     private Vector2 StartPositionCamera;
@@ -29,13 +30,14 @@ public class ParallaxPlusEffect : MonoBehaviour
             isInitialized = true;
             return;
         }
-
+        float ParallaxEffectX = 1 - ParallaxX;
+        float ParallaxEffectY = 1 - ParallaxY;
         float CameraDistX = CameraObject.transform.position.x - StartPositionCamera.x;
         float CameraDistY = CameraObject.transform.position.y - StartPositionCamera.y;
 
-        float ObjectDistX = StartPositionObject.x + (StartPositionObject.x + CameraDistX) / Parallax - (StartPositionObject.x / Parallax);
-        float ObjectDistY = StartPositionObject.y + (StartPositionObject.y + CameraDistY) / Parallax - (StartPositionObject.y / Parallax);
+        float ObjectDistX = StartPositionObject.x + (CameraDistX * ParallaxEffectX);
+        float ObjectDistY = StartPositionObject.y + (CameraDistY * ParallaxEffectY);
 
-        transform.position = new Vector3(ObjectDistX, ObjectDistY, transform.position.z);
+        transform.position = new Vector2(ObjectDistX, ObjectDistY);
     }
 }
