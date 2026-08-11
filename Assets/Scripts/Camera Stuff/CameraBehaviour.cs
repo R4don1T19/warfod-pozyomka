@@ -5,6 +5,7 @@ public class CameraBehavior : MonoBehaviour
     [SerializeField] private GameObject Player;
     [SerializeField] private Transform PlayerTransform;
     [SerializeField] private Transform Enemy;
+    [SerializeField] private float UpToPlayer;
 
     private bool _inEnemyRange = false;
     private bool _betweenStatus = false;
@@ -27,7 +28,7 @@ public class CameraBehavior : MonoBehaviour
             return;
         else
             PlayerTransform = Player.transform;
-            PlayerPos = new Vector3(PlayerTransform.position.x, PlayerTransform.position.y + 1, -10); // навсегда запомнить позицию Капсулы
+            PlayerPos = new Vector3(PlayerTransform.position.x, PlayerTransform.position.y + UpToPlayer, -10); // навсегда запомнить позицию Капсулы
     }
 
     void LateUpdate() // здесь начинается сущий кошмар математики
@@ -42,7 +43,7 @@ public class CameraBehavior : MonoBehaviour
             if (Enemy == null || Player == null)
                 return;
             // первый этап - А стоит, Б двигается
-            _midPoint = new Vector3((PlayerTransform.position.x + Enemy.position.x) / 2, (PlayerTransform.position.y + Enemy.position.y) / 2, -1); // рассчитывается точка Б
+            _midPoint = new Vector3((PlayerTransform.position.x + Enemy.position.x) / 2, (PlayerTransform.position.y + Enemy.position.y) / 2 + UpToPlayer, -1); // рассчитывается точка Б
             transform.position = _base = Vector3.Lerp(transform.position, _midPoint, 0.05f); // для t достаточно фиксированного значения из-за идеального случая
             range = Math.Sqrt(Math.Pow((PlayerTransform.position.x - Enemy.position.x), 2) + Math.Pow(PlayerTransform.position.y - Enemy.position.y, 2)); // ну и расстояние для механики
 
