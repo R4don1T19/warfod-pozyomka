@@ -128,9 +128,9 @@ TextureImporter:
       name: Pozyomka_WALK_0
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 0
-        width: 24
+        width: 29
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -150,9 +150,9 @@ TextureImporter:
       name: Pozyomka_WALK_1
       rect:
         serializedVersion: 2
-        x: 82
+        x: 84
         y: 0
-        width: 24
+        width: 23
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -172,9 +172,9 @@ TextureImporter:
       name: Pozyomka_WALK_2
       rect:
         serializedVersion: 2
-        x: 147
+        x: 148
         y: 0
-        width: 27
+        width: 22
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -194,9 +194,9 @@ TextureImporter:
       name: Pozyomka_WALK_3
       rect:
         serializedVersion: 2
-        x: 210
+        x: 211
         y: 0
-        width: 24
+        width: 23
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -216,9 +216,9 @@ TextureImporter:
       name: Pozyomka_WALK_4
       rect:
         serializedVersion: 2
-        x: 272
+        x: 275
         y: 0
-        width: 34
+        width: 30
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
