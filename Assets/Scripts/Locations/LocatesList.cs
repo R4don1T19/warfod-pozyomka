@@ -32,23 +32,23 @@ public class LocatesList : MonoBehaviour
     {
         DDOL.PlayerPositionK = PM.transform.position;
         DDOL.CameraPositionK = GameObject.Find("MainCamera").transform.position;
-        if (LE.DoorID == 1)
+        if (LE.DoorID == "HouseFirst")
             SceneManager.LoadScene("house1");
-        else if (LE.DoorID == 3)
+        else if (LE.DoorID == "HouseSecond")
             SceneManager.LoadScene("house2");
     }
     internal void outside()
     {
-        if (LE.DoorID == 2)
+        if (LE.DoorID == "Kontassalama2")
         {
             if (LE.SceneName == "Kontassalama1")
             {
                 DDOL.CameraPositionK1 = GameObject.Find("MainCamera").transform.position;
                 DDOL.PlayerPositionK1 = PM.transform.position;
             }
-            SceneManager.LoadScene("Kontassalama");
+            SceneManager.LoadScene("Kontassalama2");
         }
-        else if (LE.DoorID == 4)
+        else if (LE.DoorID == "Kontassalama1")
         {
             DDOL.PlayerPositionK = PM.transform.position;
             DDOL.CameraPositionK = GameObject.Find("MainCamera").transform.position;

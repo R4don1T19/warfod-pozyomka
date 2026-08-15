@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class LocatesEnter : MonoBehaviour
 { 
     [SerializeField] internal string SceneName;
-    [SerializeField] internal int DoorID;
+    [SerializeField] internal string DoorID;
     private LocatesList LL;
     private DONTDESTROYONLOAD DDOL;
     private void Awake()
@@ -51,13 +51,13 @@ public class LocatesEnter : MonoBehaviour
                 case "house2":
                     LL.outside();
                     break;
-                case "Kontassalama":
-                    if (DoorID == 4)
+                case "Kontassalama1":
+                    if (DoorID == "Kontassalama2")
                         LL.outside();
-                    if (DoorID == 1 || DoorID == 3)
+                    if (DoorID == "HouseFirst" || DoorID == "HouseSecond") 
                         LL.woodenHouse();
                     break;
-                case "Kontassalama1":
+                case "Kontassalama2":
                     LL.outside();
                     break;
             }

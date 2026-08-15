@@ -2,5 +2,5 @@ using UnityEngine;
 
 public class DoorID : MonoBehaviour
 {
-    [SerializeField] internal int ID;
+    [SerializeField] internal string ID;
 }
