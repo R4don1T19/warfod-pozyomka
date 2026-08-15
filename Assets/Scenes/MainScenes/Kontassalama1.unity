@@ -654,7 +654,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 145811011471631276, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: ID
-      value: 3
+      value: HouseFirst
       objectReference: {fileID: 0}
     - target: {fileID: 479895665092283445, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: LE
@@ -1904,9 +1904,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1029512167}
     m_Modifications:
+    - target: {fileID: 145811011471631276, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
+      propertyPath: ID
+      value: HouseSecond
+      objectReference: {fileID: 0}
     - target: {fileID: 1244947094627244136, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -31.28
+      value: -69.2
       objectReference: {fileID: 0}
     - target: {fileID: 1244947094627244136, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2674,9 +2678,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1029512167}
     m_Modifications:
+    - target: {fileID: 145811011471631276, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
+      propertyPath: ID
+      value: Kontassalama2
+      objectReference: {fileID: 0}
+    - target: {fileID: 479895665092283445, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
+      propertyPath: LE
+      value: 
+      objectReference: {fileID: 1110000367}
     - target: {fileID: 1244947094627244136, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.98131
+      value: 19.26
       objectReference: {fileID: 0}
     - target: {fileID: 1244947094627244136, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4165,6 +4177,14 @@ PrefabInstance:
     - target: {fileID: 105615404650596244, guid: 51eb0c2a8f7a2854e8823514066eabcb, type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 573908238767796545, guid: 51eb0c2a8f7a2854e8823514066eabcb, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.625
+      objectReference: {fileID: 0}
+    - target: {fileID: 573908238767796545, guid: 51eb0c2a8f7a2854e8823514066eabcb, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 931229201124376071, guid: 51eb0c2a8f7a2854e8823514066eabcb, type: 3}
       propertyPath: m_LocalPosition.x
