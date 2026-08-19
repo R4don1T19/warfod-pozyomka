@@ -9,7 +9,10 @@ public class ParallaxPlusEffect : MonoBehaviour
     private Vector2 StartPositionCamera;
     private Vector2 StartPositionObject;
     private bool isInitialized = false;
-
+    private void Start()
+    {
+        CameraObject = Camera.main.gameObject;   
+    }
     // Вместо LateUpdate делаем подписку
     private void OnEnable()
     {
