@@ -155,6 +155,7 @@ MonoBehaviour:
   Player: {fileID: 0}
   PlayerTransform: {fileID: 0}
   Enemy: {fileID: 0}
+  UpToPlayer: 2
   range: 0
 --- !u!61 &6176505694097952000
 BoxCollider2D:
@@ -283,7 +284,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -15
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -7966084705414291451, guid: 5e8baec351cca874b988c5d2abd41476, type: 3}
+  m_Sprite: {fileID: 5810532062816885538, guid: 11e83117e1a38bb4d8e3bca39d17e09c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -82,12 +82,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -13
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8971702082094135476, guid: 145ce23f5daedb64d8244d05ef49f402, type: 3}
+  m_Sprite: {fileID: -8871782406192315665, guid: 8e0661c9fd6a1df488dddc4478852f37, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 55, y: 9.44}
+  m_DrawMode: 2
+  m_Size: {x: 255, y: 9.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -105,5 +105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15e7f515a31d3f0489e1780b6bfd5f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxPlusEffect
-  Parallax: 0.987
+  ParallaxX: 0.5
+  ParallaxY: 0.25
   CameraObject: {fileID: 0}
