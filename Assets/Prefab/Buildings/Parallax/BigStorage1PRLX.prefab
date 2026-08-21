@@ -82,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -3
   m_MaskInteraction: 0
   m_Sprite: {fileID: -4286133028995636030, guid: cc9a699e1e9553f428e70adaaa4d7399, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
   Camera: {fileID: 0}
-  Parallax: 0.85
+  Parallax: 0.995
 --- !u!61 &6552376151795618763
 BoxCollider2D:
   m_ObjectHideFlags: 0

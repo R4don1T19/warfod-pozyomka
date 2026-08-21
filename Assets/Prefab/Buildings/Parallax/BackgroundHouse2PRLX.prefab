@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ParallaxEffect
   Camera: {fileID: 0}
-  Parallax: 0.8
+  Parallax: 0.95
 --- !u!50 &101238719777846217
 Rigidbody2D:
   serializedVersion: 5
