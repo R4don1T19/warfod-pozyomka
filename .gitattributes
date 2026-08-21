@@ -1,0 +1,2 @@
+# Игнорировать макеты Unity в статистике GitHub
+*.wlt linguist-vendored
