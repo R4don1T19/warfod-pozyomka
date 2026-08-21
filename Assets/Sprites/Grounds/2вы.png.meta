@@ -229,12 +229,12 @@ TextureImporter:
       name: "2\u0432\u044B_5"
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 187
-        width: 94
-        height: 33
+        width: 96
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
