@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: aa6005f3f9d2359499381991c87e4a94
+guid: 408aca18379ee364d9e439a7ea31e6d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8447388685732608060
-    second: Pozyomka_Port128_0
+      213: -6868401843509899876
+    second: houes 3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pozyomka_Port128_0
+      name: houes 3_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
-        width: 113
-        height: 120
+        x: 582
+        y: 296
+        width: 133
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38feb4e0472b3570800000000000000
-      internalID: 8447388685732608060
+      spriteID: c9d44f6e9e88ea0a0800000000000000
+      internalID: -6868401843509899876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houes 3_1
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 137
+        width: 213
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dc37af9ddd6544cbce93695a6de783
+      internalID: 578650212
       vertices: []
       indices: 
       edges: []
@@ -138,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: df909312461ef064e85a76e8a10c5354
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +170,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pozyomka_Port128_0: 8447388685732608060
+      houes 3_0: -6868401843509899876
+      houes 3_1: 578650212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
