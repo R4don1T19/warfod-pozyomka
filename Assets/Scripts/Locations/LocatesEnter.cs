@@ -10,25 +10,15 @@ public class LocatesEnter : MonoBehaviour
     private void Awake()
     {
         SceneName = SceneManager.GetActiveScene().name;
-        DDOL = GameObject.Find("DDOL").GetComponent<DONTDESTROYONLOAD>();
+        DDOL = GameObject.FindWithTag("Singleton").GetComponent<DONTDESTROYONLOAD>();
         DontDestroyOnLoad(DDOL);
-        //if (DDOL.transition == true && SceneName == "Kontassalama")
-        //{
-        //    GameObject.Find("MainCamera").transform.position = DDOL.CameraPositionBeforeTransitionK;
-        //    GameObject.Find("MainPlayer").transform.position = DDOL.TransitionToOutsideK;
-        //}
+
         if (DDOL.transition)
         {
-            switch (SceneName)
+            if (DONTDESTROYONLOAD.Instance.TransitDataPlayer.TryGetValue(SceneName, out Vector2 CameraValue) && DONTDESTROYONLOAD.Instance.TransitDataCamera.TryGetValue(SceneName, out Vector2 PlayerValue))
             {
-                case "Kontassalama":
-                    GameObject.Find("MainCamera").transform.position = DDOL.CameraPositionK;
-                    GameObject.Find("MainPlayer").transform.position = DDOL.PlayerPositionK;
-                    break;
-                case "Kontassalama1":
-                    GameObject.Find("MainCamera").transform.position = DDOL.CameraPositionK1;
-                    GameObject.Find("MainPlayer").transform.position = DDOL.PlayerPositionK1;
-                    break;
+                Camera.main.transform.position = CameraValue;
+                GameObject.FindWithTag("Player").transform.position = PlayerValue;
             }
         }
     }
@@ -43,24 +33,7 @@ public class LocatesEnter : MonoBehaviour
         else if (LL.PlayerIsNear && Input.GetKeyUp(KeyCode.E))
         {
             DDOL.transition = true;
-            switch (SceneName)
-            {
-                case "house1":
-                    LL.outside();
-                    break;
-                case "house2":
-                    LL.outside();
-                    break;
-                case "Kontassalama1":
-                    if (DoorID == "Kontassalama2")
-                        LL.outside();
-                    if (DoorID == "HouseFirst" || DoorID == "HouseSecond") 
-                        LL.woodenHouse();
-                    break;
-                case "Kontassalama2":
-                    LL.outside();
-                    break;
-            }
+            LL.Transit(SceneName, DoorID);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
