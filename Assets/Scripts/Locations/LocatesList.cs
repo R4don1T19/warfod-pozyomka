@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LocatesList : MonoBehaviour
@@ -12,7 +11,7 @@ public class LocatesList : MonoBehaviour
     public bool PlayerIsNear { get { return playerisnear; } }
     private void Awake()
     {
-        DDOL = GameObject.FindWithTag("Singleton").GetComponent<DONTDESTROYONLOAD>();
+        DDOL = DONTDESTROYONLOAD.Instance.GetComponent<DONTDESTROYONLOAD>();
         DontDestroyOnLoad(DDOL);
     }
     private void Start()
@@ -23,7 +22,6 @@ public class LocatesList : MonoBehaviour
     {
         ShowIcon();
     }
-
     internal void Transit(string FromLocation, string ToLocation)
     {
         if (DONTDESTROYONLOAD.Instance.TransitDataCamera.ContainsKey(FromLocation) && DONTDESTROYONLOAD.Instance.TransitDataPlayer.ContainsKey(FromLocation))

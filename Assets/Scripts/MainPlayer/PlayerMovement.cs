@@ -5,23 +5,30 @@ using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 public class PlayerMovement : MonoBehaviour
 {
-    // wow no way
+    public static PlayerMovement Instance { get; private set; }
     [SerializeField] internal float speed = 6.66f;
     [SerializeField] private float _ladderSpeed = 3.33f;
     [SerializeField] private float stamina = 6f;
     [SerializeField] private float maxStamina = 6f;
     [SerializeField] private float staminaTimer = 2f;
     [SerializeField] private Animator anime;
-
     private PlayerSurfaceDetect PSD;
-
     [SerializeField] private bool _isFlipped = false;
     public bool IsFlipped { get { return _isFlipped; } set { _isFlipped = value; } }
-
     private Rigidbody2D rb;
     private SpriteRenderer sr;
     private Vector2 moveVector;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+            return;
+        }
+        Destroy(gameObject);
+    }
     void Start()
     {
         anime = GetComponent<Animator>();

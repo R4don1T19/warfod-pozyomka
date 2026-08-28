@@ -10,12 +10,12 @@ public class LocatesEnter : MonoBehaviour
     private void Awake()
     {
         SceneName = SceneManager.GetActiveScene().name;
-        DDOL = GameObject.FindWithTag("Singleton").GetComponent<DONTDESTROYONLOAD>();
+        DDOL = DONTDESTROYONLOAD.Instance.GetComponent<DONTDESTROYONLOAD>();
         DontDestroyOnLoad(DDOL);
 
         if (DDOL.transition)
         {
-            if (DONTDESTROYONLOAD.Instance.TransitDataPlayer.TryGetValue(SceneName, out Vector2 CameraValue) && DONTDESTROYONLOAD.Instance.TransitDataCamera.TryGetValue(SceneName, out Vector2 PlayerValue))
+            if (DONTDESTROYONLOAD.Instance.TransitDataPlayer.TryGetValue(SceneName, out Vector2 PlayerValue) && DONTDESTROYONLOAD.Instance.TransitDataCamera.TryGetValue(SceneName, out Vector2 CameraValue))
             {
                 Camera.main.transform.position = CameraValue;
                 GameObject.FindWithTag("Player").transform.position = PlayerValue;

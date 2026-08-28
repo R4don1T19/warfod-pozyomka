@@ -21,6 +21,12 @@ public class SmallDialogueWindowManager : MonoBehaviour
     private int CurrentNode = 0;
     private string previousSpeakerName;
     private Coroutine CurrentCoroutine; // определять переменную-корутину необязательно, но для её контроля лучше это делать. 
+    private void Awake()
+    {
+        PM = GameObject.FindWithTag("Player").GetComponent<PlayerMovement>();
+        pTZ = GameObject.FindWithTag("SDWTrigger").GetComponent<SmallDialogueWindowPlayerTriggerZone>();
+
+    }
     private void Update()
     {
         if (pTZ.StartInspect)

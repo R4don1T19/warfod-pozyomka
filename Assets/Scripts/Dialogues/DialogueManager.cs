@@ -33,7 +33,7 @@ public class DialogueManager : MonoBehaviour
         if (_isDialogueActive) return;
 
         dUI = FindAnyObjectByType<DialogueUI>(FindObjectsInactive.Include);
-        PM = FindAnyObjectByType<PlayerMovement>();
+        PM = PlayerMovement.Instance.GetComponent<PlayerMovement>();
 
         qUI.CloseAllUIElements(); // Закрыть все квестовые UI-элементы, пока идет диалог
         iUI.CloseAllUIElements(); // То же самое, но уже с UI-элементами Инвентаря.
