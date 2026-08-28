@@ -3040,17 +3040,6 @@ Transform:
   - {fileID: 814515983}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1618821636 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6732391418920699551, guid: 51eb0c2a8f7a2854e8823514066eabcb, type: 3}
-  m_PrefabInstance: {fileID: 7996899773592897411}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 739fc014eb301464888091e97dff6804, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SmallDialogueWindowPlayerTriggerZone
 --- !u!1001 &1640871272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3113,17 +3102,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3415653396471320750, guid: 131d52d1498d03746a884b9ddc7fcdf2, type: 3}
   m_PrefabInstance: {fileID: 1514843400}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1650363300 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5946632550914796975, guid: 51eb0c2a8f7a2854e8823514066eabcb, type: 3}
-  m_PrefabInstance: {fileID: 7996899773592897411}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16b048223d7688048b81b84786c30e1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1714173051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5624526370416285908, guid: 45a2085e7c1ed9e459ade971f74a7471, type: 3}
@@ -4708,11 +4686,11 @@ PrefabInstance:
     - target: {fileID: 8667996560162165133, guid: a2b15e67b17e4904595675ce87998173, type: 3}
       propertyPath: PM
       value: 
-      objectReference: {fileID: 1650363300}
+      objectReference: {fileID: 0}
     - target: {fileID: 8667996560162165133, guid: a2b15e67b17e4904595675ce87998173, type: 3}
       propertyPath: pTZ
       value: 
-      objectReference: {fileID: 1618821636}
+      objectReference: {fileID: 0}
     - target: {fileID: 9016851867792567921, guid: a2b15e67b17e4904595675ce87998173, type: 3}
       propertyPath: m_Name
       value: Singleton
@@ -5398,6 +5376,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 834848204712888632, guid: 51eb0c2a8f7a2854e8823514066eabcb, type: 3}
+      propertyPath: m_TagString
+      value: SDWTrigger
+      objectReference: {fileID: 0}
     - target: {fileID: 931229201124376071, guid: 51eb0c2a8f7a2854e8823514066eabcb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -127.99
