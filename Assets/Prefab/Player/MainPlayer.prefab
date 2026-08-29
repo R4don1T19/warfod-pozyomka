@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6732391418920699551}
   m_Layer: 0
   m_Name: SDWTrigger
-  m_TagString: Untagged
+  m_TagString: SDWTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -413,10 +413,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1799888299924453062}
-  - component: {fileID: 4294257405388903323}
   - component: {fileID: 9015182849920029354}
+  - component: {fileID: 3427691079725954613}
   m_Layer: 0
-  m_Name: LE
+  m_Name: DoorIdentificator
   m_TagString: DoorIdentificator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,20 +437,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 931229201124376071}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4294257405388903323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2328217576455087741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3c7a7340a55c5b488b6ca346ee8af18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SceneName: 
-  DoorID: 0
 --- !u!61 &9015182849920029354
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -497,6 +483,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.4126511, y: 2.8006616}
   m_EdgeRadius: 0
+--- !u!114 &3427691079725954613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2328217576455087741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071fe5ae43b23f2409a6eb4391aa0b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocatesPlayerTransit
+  Player: {fileID: 1038314198773427810}
+  Spawner: {fileID: 0}
 --- !u!1 &2391939801960853639
 GameObject:
   m_ObjectHideFlags: 0

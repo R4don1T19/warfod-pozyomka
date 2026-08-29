@@ -102,7 +102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1244947094627244136}
   - component: {fileID: 3765695302683497208}
-  - component: {fileID: 479895665092283445}
+  - component: {fileID: 8984101597661805289}
   m_Layer: 0
   m_Name: Door
   m_TagString: Door
@@ -173,7 +173,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.6510639, y: 2.6026208}
   m_EdgeRadius: 0
---- !u!114 &479895665092283445
+--- !u!114 &8984101597661805289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -182,11 +182,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7530291874994033662}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 671c5ad287feea249b0992b2c43dcc85, type: 3}
+  m_Script: {fileID: 11500000, guid: c5210dcf5dced7e4dba8101c00d5dbc5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  playerisnear: 0
-  LE: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::LocatesSpawner
 --- !u!1 &8766694023593454950
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,4 +229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c30d4604a4731343881b8824acc970d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ID: HouseFirst
+  DoorIDTo: PozyomkaHouseHall
+  DoorIDFrom: KontassalamaPozyomkaHouse
+  SceneName: PozyomkaHouse1
