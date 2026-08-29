@@ -88,7 +88,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift) && stamina >= 0)
         {
             staminaTimer = 2f;     // установка таймера
-            speed = 10f;           // увеличение скорости 
+            speed = 15f;           // увеличение скорости 
             stamina -= 0.05f;      // ну и пока бежим тратится стамина
         }
         else if (!Input.GetKey(KeyCode.LeftShift))
