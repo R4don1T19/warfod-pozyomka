@@ -197,6 +197,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sign
       objectReference: {fileID: 0}
+    - target: {fileID: 6271980781210610286, guid: 101b71818d01d8d40b6dea6148f177e7, type: 3}
+      propertyPath: DoorIDTo
+      value: KontassalamaSignA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271980781210610286, guid: 101b71818d01d8d40b6dea6148f177e7, type: 3}
+      propertyPath: SceneName
+      value: KontassalamaMain
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271980781210610286, guid: 101b71818d01d8d40b6dea6148f177e7, type: 3}
+      propertyPath: DoorIDFrom
+      value: KontassalamaSignB
+      objectReference: {fileID: 0}
     - target: {fileID: 6972286947990204855, guid: 101b71818d01d8d40b6dea6148f177e7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.676725

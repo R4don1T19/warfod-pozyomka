@@ -685,6 +685,18 @@ PrefabInstance:
       propertyPath: ID
       value: KontassalamaMain
       objectReference: {fileID: 0}
+    - target: {fileID: 145811011471631276, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
+      propertyPath: DoorIDTo
+      value: KontassalamaPozyomkaHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 145811011471631276, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
+      propertyPath: SceneName
+      value: KontassalamaMain
+      objectReference: {fileID: 0}
+    - target: {fileID: 145811011471631276, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
+      propertyPath: DoorIDFrom
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 479895665092283445, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: LE
       value: 
