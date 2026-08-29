@@ -1671,7 +1671,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 145811011471631276, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: DoorIDTo
-      value: 1
+      value: PozyomkaMain
       objectReference: {fileID: 0}
     - target: {fileID: 1244947094627244136, guid: 0603c64ef4c11d14cbd839100c57a1b7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2282,6 +2282,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2040229544}
     m_Modifications:
+    - target: {fileID: 244619733216470106, guid: b4be2bc319d7f184b9b57267f5927c34, type: 3}
+      propertyPath: Camera
+      value: 
+      objectReference: {fileID: 1184200691}
     - target: {fileID: 3525333435201759207, guid: b4be2bc319d7f184b9b57267f5927c34, type: 3}
       propertyPath: m_Name
       value: Storage1PRLX
