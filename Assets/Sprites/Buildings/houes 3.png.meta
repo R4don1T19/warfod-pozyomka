@@ -143,7 +143,7 @@ TextureImporter:
         width: 213
         height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -152,6 +152,50 @@ TextureImporter:
       bones: []
       spriteID: 41dc37af9ddd6544cbce93695a6de783
       internalID: 578650212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houes 3_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 225
+        width: 284
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd1ed32c0c0569448b6814a197fad29
+      internalID: 1961124593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houes 3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 284
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42e1441e88875a40bcad546e06486af
+      internalID: -978186421
       vertices: []
       indices: 
       edges: []
@@ -172,6 +216,8 @@ TextureImporter:
     nameFileIdTable:
       houes 3_0: -6868401843509899876
       houes 3_1: 578650212
+      houes 3_2: 1961124593
+      houes 3_3: -978186421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
