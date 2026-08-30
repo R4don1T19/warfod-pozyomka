@@ -542,7 +542,6 @@ GameObject:
   - component: {fileID: 2150802339593256126}
   - component: {fileID: 6583461633118831922}
   - component: {fileID: 8667996560162165133}
-  - component: {fileID: 5422602428671799020}
   m_Layer: 0
   m_Name: Singleton
   m_TagString: Untagged
@@ -641,23 +640,6 @@ MonoBehaviour:
   TextLine: {fileID: 787324242192379793}
   SpeakerName: {fileID: 8964378068951227059}
   SpeakerSprite: {fileID: 3176936676301414560}
---- !u!114 &5422602428671799020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9016851867792567921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 31f85c6637af37344be1cf8006e41d6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DONTDESTROYONLOAD
-  transition: 0
-  PlayerPositionK: {x: 0, y: 0, z: 0}
-  CameraPositionK: {x: 0, y: 0, z: 0}
-  PlayerPositionK1: {x: 0, y: 0, z: 0}
-  CameraPositionK1: {x: 0, y: 0, z: 0}
 --- !u!1001 &159291450833941732
 PrefabInstance:
   m_ObjectHideFlags: 0
