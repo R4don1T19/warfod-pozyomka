@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainScenes/KontassalamaMain.unity
+    guid: 8a80ac5b221da164b88b159b0ce6991e
+  - enabled: 1
     path: Assets/Scenes/MainScenes/KontassalamaSecond.unity
     guid: 8e1868362d1b6b44986b8801053869d7
   - enabled: 1
@@ -13,9 +16,24 @@ EditorBuildSettings:
     guid: 26f79ef8dce8cd843b9ea3c282eb6fe6
   - enabled: 1
     path: Assets/Scenes/Inside/PozyomkaHouse2.unity
-    guid: 27e9a7f0ce6e77847b54cc84e0300d57
+    guid: e05bdb314dfc6154198715621a4a24f1
   - enabled: 1
-    path: Assets/Scenes/MainScenes/KontassalamaMain.unity
-    guid: 8a80ac5b221da164b88b159b0ce6991e
+    path: Assets/Scenes/Inside/CliffsHouse1.unity
+    guid: 600e0f7d3d662a141a79df07a5531c92
+  - enabled: 1
+    path: Assets/Scenes/Inside/CliffsHouse2.unity
+    guid: e0310dc249b3a4543ae92078f797ac76
+  - enabled: 1
+    path: Assets/Scenes/Inside/VasilisaHouse1.unity
+    guid: c7437ff1a61c6a849839d6d57231abc5
+  - enabled: 1
+    path: Assets/Scenes/Inside/VasilisaHouse2.unity
+    guid: 22cb1fadff6c5f945adfd79311cf17a9
+  - enabled: 1
+    path: Assets/Scenes/Inside/CarolHouse1.unity
+    guid: ffde111a1c522e941868208b8fce570a
+  - enabled: 1
+    path: Assets/Scenes/Inside/CarolHouse2.unity
+    guid: 54538ef909b74454b991fbc32b27304c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
