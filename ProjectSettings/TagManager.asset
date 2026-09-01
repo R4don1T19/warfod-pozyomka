@@ -18,6 +18,7 @@ TagManager:
   - Prop
   - Singleton
   - SDWTrigger
+  - Parallax
   layers:
   - Default
   - TransparentFX
