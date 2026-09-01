@@ -6,7 +6,7 @@ public class ParallaxPlusEffect : MonoBehaviour
     [SerializeField] private float ParallaxY;
     [SerializeField] private GameObject CameraObject;
 
-    private Vector2 StartPositionCamera;
+    public Vector2 StartPositionCamera;
     private Vector2 StartPositionObject;
     private bool isInitialized = false;
     private void Start()
@@ -28,7 +28,10 @@ public class ParallaxPlusEffect : MonoBehaviour
     {
         if (!isInitialized)
         {
-            StartPositionCamera = CameraObject.transform.position;
+            // Строчка из-за проблемы-сброса начальной координаты у камеры из-за перехода между локациями.
+            if(StartPositionCamera == null)
+                StartPositionCamera = CameraObject.transform.position;
+
             StartPositionObject = transform.position;
             isInitialized = true;
             return;
