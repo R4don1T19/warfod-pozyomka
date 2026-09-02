@@ -46,4 +46,9 @@ public class ParallaxPlusEffect : MonoBehaviour
 
         transform.position = new Vector2(ObjectDistX, ObjectDistY);
     }
+    public void ResetParameters()
+    {
+        StartPositionCamera = Vector2.zero;
+        isInitialized = false;
+    }
 }

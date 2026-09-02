@@ -53,6 +53,9 @@ public class LocatesPlayerTransit : MonoBehaviour
         // сброс стартовой позиции у камеры для лучшего параллакса.
         Parallax = GameObject.FindWithTag("Parallax")?.GetComponentInChildren<ParallaxPlusEffect>();
         if (Parallax != null)
+        {
+            Parallax.ResetParameters();
             Parallax.StartPositionCamera = Camera.main.transform.position;
+        }
     }
 }
