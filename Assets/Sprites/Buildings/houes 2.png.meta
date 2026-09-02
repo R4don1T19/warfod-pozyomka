@@ -122,12 +122,12 @@ TextureImporter:
       name: houes 2_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 242
-        width: 369
-        height: 165
+        x: 0
+        y: 235
+        width: 370
+        height: 164
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -144,12 +144,12 @@ TextureImporter:
       name: houes 2_1
       rect:
         serializedVersion: 2
-        x: 328
-        y: 180
-        width: 76
+        x: 317
+        y: 171
+        width: 87
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -171,7 +171,7 @@ TextureImporter:
         width: 369
         height: 154
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -184,11 +184,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: houes 2_3
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 319
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8843bc9891279a7489f28d363173098d
+      internalID: 1404317810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: houes 2_4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 28
+        width: 200
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2575f6030c2005a4e8467b8c5f9f8b93
+      internalID: -1158972279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e6385d0f554f5054fb310bf0b1668b24
     internalID: 0
     vertices: []
     indices: 
@@ -201,6 +245,8 @@ TextureImporter:
       houes 2_0: -4286133028995636030
       houes 2_1: 2894400193655170820
       houes 2_2: 37266826856199077
+      houes 2_3: 1404317810
+      houes 2_4: -1158972279
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
