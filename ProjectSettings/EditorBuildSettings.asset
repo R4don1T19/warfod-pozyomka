@@ -38,5 +38,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Storages/BigStorage1.unity
     guid: fb3ac617ee0e37a4587c9ffeb2d54936
+  - enabled: 1
+    path: Assets/Scenes/MainScenes/ForestMain.unity
+    guid: 17e4b263388bef84d8966d2963402b79
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
