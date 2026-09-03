@@ -1,13 +1,10 @@
-using System;
-using Unity.VisualScripting;
-using UnityEditor.Tilemaps;
+
 using UnityEngine;
 
 public class PlayerCombatSystem : AC_CombatSystem
 {
     [SerializeField] private PlayerMovement PlayerMovement;
     [SerializeField] private Transform TriggerZone;
-    [SerializeField] private GameObject Player;
     [SerializeField] private EnemyCombatSystem enemy;
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private int hpPlayer;
@@ -26,7 +23,6 @@ public class PlayerCombatSystem : AC_CombatSystem
         PlayerMovement = GetComponentInParent<PlayerMovement>();
         TriggerZone = GetComponentInChildren<Transform>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-        Player = GameObject.Find("MainPlayer");
         hpPlayer = 5;
         cooldown = 1f;
     }

@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemySurfaceDetect : MonoBehaviour
@@ -12,7 +11,7 @@ public class EnemySurfaceDetect : MonoBehaviour
 
     private void Start()
     {
-        Rigidbody2D rb = GetComponentInParent<Rigidbody2D>();
+        rb = GetComponentInParent<Rigidbody2D>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
