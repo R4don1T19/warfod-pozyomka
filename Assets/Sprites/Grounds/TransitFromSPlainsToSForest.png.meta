@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: cc9a699e1e9553f428e70adaaa4d7399
+guid: b9f792556dd80fb47b465a974a4a60d9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4286133028995636030
-    second: houes 2_0
-  - first:
-      213: 2894400193655170820
-    second: houes 2_1
-  - first:
-      213: 37266826856199077
-    second: houes 2_2
+      213: -9084126727768811581
+    second: TransitFromSPlainsToSForest_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,111 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: houes 2_0
+      name: TransitFromSPlainsToSForest_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 235
-        width: 370
-        height: 164
+        x: 114
+        y: 0
+        width: 206
+        height: 174
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c465a218b89484c0800000000000000
-      internalID: -4286133028995636030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: houes 2_1
-      rect:
-        serializedVersion: 2
-        x: 317
-        y: 171
-        width: 87
-        height: 63
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 40763a414a9fa2820800000000000000
-      internalID: 2894400193655170820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: houes 2_2
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 9
-        width: 369
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5a37ba84bf5648000800000000000000
-      internalID: 37266826856199077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: houes 2_3
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 6
-        width: 102
-        height: 91
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8843bc9891279a7489f28d363173098d
-      internalID: 1404317810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: houes 2_4
-      rect:
-        serializedVersion: 2
-        x: 445
-        y: 28
-        width: 214
-        height: 225
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2575f6030c2005a4e8467b8c5f9f8b93
-      internalID: -1158972279
+      spriteID: 3c755b0fed2bee180800000000000000
+      internalID: -9084126727768811581
       vertices: []
       indices: 
       edges: []
@@ -232,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e6385d0f554f5054fb310bf0b1668b24
+    spriteID: 01499a4f0df22fc4dbb5eb8c93a48c64
     internalID: 0
     vertices: []
     indices: 
@@ -242,11 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      houes 2_0: -4286133028995636030
-      houes 2_1: 2894400193655170820
-      houes 2_2: 37266826856199077
-      houes 2_3: 1404317810
-      houes 2_4: -1158972279
+      TransitFromSPlainsToSForest_0: -9084126727768811581
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
