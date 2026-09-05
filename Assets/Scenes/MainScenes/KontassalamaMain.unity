@@ -606,6 +606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BackgroundParallax
       objectReference: {fileID: 0}
+    - target: {fileID: 1406960826042372164, guid: 5cd27325fe87ce241a6fa2a22238471a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.33
+      objectReference: {fileID: 0}
     - target: {fileID: 4637292067606636786, guid: 5cd27325fe87ce241a6fa2a22238471a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
